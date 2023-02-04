@@ -125,7 +125,7 @@ if(!filters?.includes(button?.customId)) return
 
         embed = new EmbedBuilder()
           .setColor(client?.config?.embedColor)
-          .setTitle("Time ended.")
+          .setTitle("Tiempo terminado.")
           .setTimestamp()
           .setFooter({ text: `Nesscafe ☕` })
 
